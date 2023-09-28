@@ -5,7 +5,7 @@ Pascal triangle implementation
 
 
 def pascal_triangle(n):
-    tempList = [1, 2, 1]
+    tempList = [1, 1]
     pascal = [[1]]
     if n == 1:
         return pascal
