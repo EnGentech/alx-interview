@@ -2,7 +2,7 @@
 """Creating solution to making changes challenge"""
 
 
-def make_change(coins, total):
+def makeChange(coins, total):
     """A function to determine the best possible changes"""
     if total <= 0:
         return 0
